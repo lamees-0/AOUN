@@ -18,15 +18,7 @@ public class User {
         Donation donation = new Donation(property,charityName,charityAddress);
         System.out.println(donation.toString());
     }
-    public void sell(Property property){
-        Sell sell = new Sell(property,true);
-        System.out.println(sell.toString());
-    }
-    public void sell(Property property,int accountNumber){
-        Sell sell = new Sell(property,accountNumber);
-        System.out.println(sell.toString());
 
-    }
     public void recycle(Property property,String factoryName, String factoryAddress){
         Recycle recycle = new Recycle(property,factoryName,factoryAddress);
         System.out.println(recycle.toString());

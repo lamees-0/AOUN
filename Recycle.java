@@ -36,6 +36,7 @@ public class Recycle {
 
     @Override
     public String toString() {
+
         return String.format("..................\nThe Property:\n%s\n..................\nFactory:\n" +
                 "%s\n%s\n..................\nA request for recycling has been sent ...\n",getProperty().toString(),getFactoryName(),getFactoryAddress());
     }
